@@ -1,0 +1,7 @@
+WinWait, User Editor, 
+IfWinNotActive, User Editor, , WinActivate, User Editor, 
+WinWaitActive, User Editor, 
+Sleep, 100
+MouseClick, left,  194,  188
+Sleep, 100
+Send, {CTRLDOWN}v{CTRLUP}{TAB}{CTRLDOWN}a{CTRLUP}novarad1{TAB}{CTRLDOWN}a{CTRLUP}novarad1{TAB}{SPACE}{TAB}

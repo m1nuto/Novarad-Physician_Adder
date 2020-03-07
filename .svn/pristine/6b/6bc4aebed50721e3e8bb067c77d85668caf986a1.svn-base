@@ -1,0 +1,20 @@
+WinWait, Create new physician linked to user: , 
+IfWinNotActive, Create new physician linked to user: , , WinActivate, Create new physician linked to user: , 
+WinWaitActive, Create new physician linked to user: , 
+Sleep, 250
+MouseClick, left,  412,  14
+Sleep, 100
+MouseClick, left,  466,  234
+Sleep, 100
+Send, {CTRLDOWN}v{CTRLUP}
+MouseClick, left,  492,  593
+Sleep, 100
+MouseClick, left,  492,  593
+Sleep, 100
+Sleep, 2750
+WinWait, User Editor, 
+IfWinNotActive, User Editor, , WinActivate, User Editor, 
+WinWaitActive, User Editor, 
+MouseClick, left,  99,  60
+Sleep, 100
+Send, {SPACE}

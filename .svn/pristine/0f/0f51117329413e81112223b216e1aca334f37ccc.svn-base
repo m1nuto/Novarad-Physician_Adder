@@ -1,0 +1,12 @@
+WinWait, User Editor, 
+IfWinNotActive, User Editor, , WinActivate, User Editor, 
+WinWaitActive, User Editor, 
+MouseClick, left,  1020,  71
+Sleep, 450
+WinWait, User Alias Editor, 
+IfWinNotActive, User Alias Editor, , WinActivate, User Alias Editor, 
+WinWaitActive, User Alias Editor, 
+MouseClick, left,  137,  8
+Sleep, 100
+Send, {CTRLDOWN}v{CTRLUP}{ENTER}
+Sleep, 125

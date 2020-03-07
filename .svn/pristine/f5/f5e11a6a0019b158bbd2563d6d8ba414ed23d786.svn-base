@@ -1,0 +1,11 @@
+WinWait, NovaPACS Admin Console - (https://www.mrahouston.com/novaweb/services as cmccarty), 
+IfWinNotActive, NovaPACS Admin Console - (https://www.mrahouston.com/novaweb/services as cmccarty), , WinActivate, NovaPACS Admin Console - (https://www.mrahouston.com/novaweb/services as cmccarty), 
+WinWaitActive, NovaPACS Admin Console - (https://www.mrahouston.com/novaweb/services as cmccarty), 
+MouseClick, left,  735,  166
+Sleep, 275
+WinWait, User Editor, 
+IfWinNotActive, User Editor, , WinActivate, User Editor, 
+WinWaitActive, User Editor, 
+Sleep, 450
+MouseClick, left,  81,  163
+Sleep, 100

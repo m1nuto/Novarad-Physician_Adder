@@ -1,0 +1,8 @@
+WinWait, User Editor, 
+IfWinNotActive, User Editor, , WinActivate, User Editor, 
+WinWaitActive, User Editor, 
+MouseClick, left,  182,  12
+Sleep, 100
+Send, {CTRLDOWN}v{CTRLUP}
+Sleep, 100
+Send, {TAB}
